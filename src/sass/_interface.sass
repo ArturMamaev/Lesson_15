@@ -1,0 +1,33 @@
+body
+  +reg
+img
+  max-width: 100%
+.container
+  width: 1170px
+  margin: auto
+@media (max-width: 1200px)
+  .container
+    max-width: 1200px
+    width: 96%
+@media (max-width: 992px)
+  .container
+    max-width: 900px
+    width: 96%
+@media (max-width: 768px)
+  .container
+    max-width: 600px
+    width: 96%
+@media (max-width: 575px)
+  .container
+    
+    width: 96%
+.navbar
+  &-info
+    &__button-header
+      font-size: 13px
+      border-radius: 10px
+      background-color: $main-color
+      border: none
+      padding: 18px 30px
+      +bold
+      
